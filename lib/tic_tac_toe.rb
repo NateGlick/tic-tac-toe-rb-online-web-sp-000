@@ -90,7 +90,7 @@ def full?(board)
 
 def draw?(board)
   if full?(board) == true && won?(board) == false
-    return 
+    return true
   else 
     return false
   end
